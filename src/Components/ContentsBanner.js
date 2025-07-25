@@ -14,7 +14,7 @@ const ContentsBanner = () => {
       </div>
       <div className="imgbox">
         <img
-          src={`${process.env.PUBLIC_URL}/image/images/contentimage.png `}
+          src={`${process.env.PUBLIC_URL}/image/images/contentimage.png`}
           alt={`주차장전경`}
         />
       </div>
