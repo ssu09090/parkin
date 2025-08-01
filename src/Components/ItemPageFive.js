@@ -90,10 +90,13 @@ const ItemPageFive = () => {
         }
       );
     });
-    ScrollTrigger.refresh();
+    
     return () => {
       ScrollTrigger.getAll().forEach((t) => t.kill());
+      
+    ScrollTrigger.refresh();
     };
+    
   }, []);
   return (
     <div>
