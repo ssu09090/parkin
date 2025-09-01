@@ -1,28 +1,28 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-a{
+a {
   text-decoration: none;
   color: inherit;
   display: block;
 }
-li{
+li {
   list-style: none;
 }
-body{
-  font-family: 'SUIT';
+body {
+  font-family: "SUIT";
   font-weight: 500;
   word-break: keep-all;
   background-color: var(--color-bg);
+  width: 100%;
   overflow-x: hidden;
-  //가로스크롤 없애기
 }
-h1{
-  font-family: 'SBAggroB';
+h1 {
+  font-family: "SBAggroB";
   font-weight: 300;
 }
-button{ 
-  cursor: pointer; 
+button {
+  cursor: pointer;
 }
